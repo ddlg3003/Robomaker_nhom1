@@ -1,4 +1,3 @@
-# Robomaker_nhom1
 # Mô tả đồ án
 ## Cài đặt. ## 
 Trong ~environtment nhập lệnh:
