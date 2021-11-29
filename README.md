@@ -1,4 +1,5 @@
 # Robomaker_nhom1
+# Mô tả đồ án
 ## Cài đặt. ## 
 Trong ~environtment nhập lệnh:
 ```
@@ -10,7 +11,7 @@ Sau khi lệnh chạy ta tiếp tục gõ:
 colcon build
 colcon bundle
 ```
-Sau khi build và bundle hoàn thành ta sẽ đưa bundle lên S3 và dùng S3 đê khởi tạo simulation.
+Sau khi build và bundle hoàn thành ta sẽ đưa bundle lên S3 và dùng S3 để khởi tạo simulation.
 
 ## Sử dụng Teleops. ##
 Khi đã có được một simulation job, ta mở terminal của simulation và gõ các lệnh sau:
