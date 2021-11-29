@@ -12,7 +12,8 @@ colcon bundle
 ```
 Sau khi build và bundle hoàn thành ta sẽ đưa bundle lên S3 và dùng S3 để khởi tạo simulation.
 
-## Sử dụng Teleops trong simulation. ##
+## Sử dụng Teleop trong simulation. ##
+Teleop là một thư viện trong ROS được sử dụng để điều khiển Robo thông qua terminal.
 Khi đã có được một simulation job, ta mở terminal của simulation và gõ các lệnh sau:
 ```
 sudo apt-get install ros-noetic-teleop-twist-keyboard
