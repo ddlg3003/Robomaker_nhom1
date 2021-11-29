@@ -1,6 +1,6 @@
 # Mô tả đồ án
 ## Cài đặt. ## 
-Trong ~environtment nhập lệnh:
+Trong ~environment nhập lệnh:
 ```
 cd rosbot_description
 rosdep install --from-paths src --ignore-src -r -y
@@ -12,7 +12,7 @@ colcon bundle
 ```
 Sau khi build và bundle hoàn thành ta sẽ đưa bundle lên S3 và dùng S3 để khởi tạo simulation.
 
-## Sử dụng Teleops. ##
+## Sử dụng Teleops trong simulation. ##
 Khi đã có được một simulation job, ta mở terminal của simulation và gõ các lệnh sau:
 ```
 sudo apt-get install ros-noetic-teleop-twist-keyboard
