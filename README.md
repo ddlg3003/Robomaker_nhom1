@@ -10,7 +10,7 @@ Sau khi lệnh chạy ta tiếp tục gõ:
 colcon build
 colcon bundle
 ```
-Đưa file output.tar lên S3
+Đưa file output.tar lên S3:
 ```
 aws s3 cp bundle/output.tar s3://<tên-S3-đã-tạo>
 ```
