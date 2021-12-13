@@ -10,6 +10,10 @@ Sau khi lệnh chạy ta tiếp tục gõ:
 colcon build
 colcon bundle
 ```
+Đưa file output.tar lên S3
+```
+aws s3 cp bundle/output.tar s3://<tên-S3-đã-tạo>
+```
 Sau khi build và bundle hoàn thành ta sẽ đưa bundle lên S3 và dùng S3 để khởi tạo simulation.
 
 ## Sử dụng Teleop trong simulation. ##
