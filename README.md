@@ -2,7 +2,7 @@
 ## Cài đặt. ## 
 Trong ~environment nhập lệnh:
 ```
-cd rosbot_description
+cd Robomaker_nhom1
 rosdep install --from-paths src --ignore-src -r -y
 ```
 Sau khi lệnh chạy ta tiếp tục gõ:
