@@ -34,7 +34,7 @@
   </gazebo>
 
   <gazebo reference="top">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
 
